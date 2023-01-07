@@ -1,0 +1,33 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+button {
+    font: inherit;
+    color: inherit;
+}
+
+/* GENERAL STYLES */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #fff;
+
+    background-color: #e6eff5;
+    margin: 7.2rem 0 6.2rem 0;
+    padding: 0 3.2rem;
+}
